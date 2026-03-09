@@ -12,5 +12,8 @@
     "dev:web": "npm --workspace apps/web run dev",
     "build": "npm run build -ws",
     "start": "npm run start -ws"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.18.0"
   }
 }
