@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import { Worker } from "bullmq";
 import Redis from "ioredis";
-import { processSyncJob } from "../jobs/processSyncJob";
+import { processSyncJob } from "./jobs/processSyncJob";
 
 dotenv.config();
 
